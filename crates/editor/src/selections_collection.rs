@@ -711,6 +711,7 @@ impl<'a> MutableSelectionsCollection<'a> {
             selection.set_head(new_head, new_goal);
         });
     }
+    
 
     pub fn move_cursors_with(
         &mut self,
